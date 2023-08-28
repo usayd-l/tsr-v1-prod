@@ -1294,6 +1294,7 @@ Team Style
 
 .team-member {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .team-member:hover img {
