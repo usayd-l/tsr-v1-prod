@@ -343,6 +343,8 @@ Pre-loader Style
   border-radius: 50%;
 }
 
+
+
 /* 
 ---------------------------------------------
 Header Style
@@ -742,6 +744,72 @@ Header Style
 Banner Style
 --------------------------------------------- 
 */
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust the width as needed */
+  height: 275px; /* Set the same height as the width to make it square */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  z-index: 9999; /* Ensure the modal is on top */
+  text-align: center;
+}
+
+
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  margin-bottom: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative; /* Add this line */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Add this CSS to your existing stylesheet */
+.confirm-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9bb9af;
+  color: white;
+  margin-top: 15px;
+   /* Center the button horizontally */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.confirm-button:hover {
+  background-color: #758b84;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
 
 .main-banner {
   background-image: url(../images/banner-bg.png);
@@ -1232,13 +1300,17 @@ Team Style
   top: -120px;
 }
 
+/* Set a fixed width and height for team member images */
 .team-member img {
-  max-width: 250px; /* Ensure the image fits within the container */
+  width: 250px; /* Adjust this value as needed */
+  height: 250px; /* Adjust this value as needed */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
   border-radius: 50%;
-  display: block; /* Use block display to properly center the image */
-  margin: 15px auto; /* Center the image horizontally */
+  display: block;
+  margin: 20px auto;
   transition: all 0.3s;
 }
+
 
 .team-member .main-content {
   border-radius: 20px;
@@ -1307,6 +1379,42 @@ Team Style
 .carousel-control-next:hover {
   background-color: rgba(0, 0, 0, 0.7); /* Hover background color */
 }
+/* Style for the founders block */
+.founders-block {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #f1f0fe;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.founders-image {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.founders-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.founders-content {
+  flex: 2;
+}
+
+.founders-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.founders-content p {
+  font-size: 16px;
+  color: #666;
+}
+
 
 /* 
 ---------------------------------------------
