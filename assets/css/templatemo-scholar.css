@@ -1889,6 +1889,22 @@ footer::before {
   content: "";
   z-index: 2;
 }
+/* Social Icons */
+.social-icons {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #9bb9af;
+}
 
 /* 
 ---------------------------------------------
