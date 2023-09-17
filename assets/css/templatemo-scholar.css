@@ -1558,6 +1558,7 @@ Events Style
 .events .item .image img {
   position: absolute;
   border-radius: 25px;
+  max-height: 250px;
   max-width: 260px;
   left: 0;
   top: -70px;
