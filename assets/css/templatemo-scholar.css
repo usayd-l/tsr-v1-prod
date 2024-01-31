@@ -834,7 +834,7 @@ Banner Style
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0px 120px 0px;
+  padding: 300px 0px 120px 0px;
 }
 
 
@@ -847,7 +847,7 @@ Banner Style
 }
 
 .main-banner .item-2 {
-  background-image: url(../images/banner-item-02.jpg);
+  background-image: url(../images/banneritem.png);
 }
 
 .main-banner .item-3 {
@@ -967,36 +967,15 @@ Services Style
 --------------------------------------------- 
 */
 
-.services .service-item:hover .icon img {
-  margin-top: -10px;
-}
 
 .services .service-item {
   position: relative;
-  margin-top: 95px;
 }
 
-.services .service-item .icon {
-  width: 190px;
-  height: 190px;
-  display: inline-block;
-  text-align: center;
-  line-height: 190px;
-  background-color: #9bb9af;
-  border-radius: 50%;
-  position: absolute;
-  right: 0;
-  top: -95px;
-}
-
-.services .service-item .icon img {
-  max-width: 86px;
-  transition: all 0.2s;
-}
 
 .services .service-item .main-content {
   border-radius: 25px;
-  padding: 80px 30px 50px 30px;
+  padding: 50px 30px 35px 30px;
   background-color: #f1f0fe;
   margin-bottom: 30px;
   margin-right: 80px;
@@ -2191,3 +2170,13 @@ body {
   object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
+.event-title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.event-title h2 {
+  color: #000; /* Set your desired color */
+  font-size: 36px; /* Set your desired font size */
+  margin-bottom: 0;
+}
