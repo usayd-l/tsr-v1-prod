@@ -829,6 +829,19 @@ Banner Style
   padding: 170px 0px 120px 0px;
 }
 
+.main-banner2 {
+  background-image: url(../images/banner-bg2.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 0px 120px 0px;
+}
+
+
+
+
+
+
 .main-banner .item-1 {
   background-image: url(../images/banner-item-01.jpg);
 }
@@ -2168,3 +2181,13 @@ body {
     font-size: 12px;
   }
 }
+
+.space {
+  margin-bottom: 50px; /* Adjust the value as needed */
+}
+
+.blog-image {
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
