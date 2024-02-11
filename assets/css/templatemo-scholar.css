@@ -843,11 +843,11 @@ Banner Style
 
 
 .main-banner .item-1 {
-  background-image: url(../images/RUN\ FOR\ GAZA\ .png);
+  background-image: url(../images/banner1.png);
 }
 
 .main-banner .item-2 {
-  background-image: url(../images/banneritem.png);
+  background-image: url(../images/banner2.png);
 }
 
 .main-banner .item-3 {
@@ -861,8 +861,7 @@ Banner Style
   border-radius: 25px;
   padding: 100px 100px;
   margin-left: 130px;
-  width: 1100px;
-  height:  648px;
+  height: 550px;
 }
 
 .main-banner .item span.category {
